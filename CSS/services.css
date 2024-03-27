@@ -1,0 +1,46 @@
+/* Styling for the services tables */
+
+/* Styles for a table used in the services section */
+.services-table {
+  width: calc(
+    30% - 20px
+  ); /* Set the width of the table, accounting for margin */
+  margin: 0 2%; /* Margin between tables */
+  border: 2px solid black;
+  border-collapse: collapse; /* Collapse borders into a single border for a cleaner look */
+  background-color: palevioletred;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top; /* Align the top of the table with adjacent elements */
+}
+
+.services-table :hover {
+  color: rgb(95, 16, 78);
+}
+
+.services-table th,
+.services-table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.services-table th {
+  font-style: italic;
+  color: rgb(37, 32, 37);
+}
+
+.services-table td p {
+  margin: 0;
+  /* Set height to ensure equal height for all tables */
+  height: 150px;
+}
+
+#services h1 {
+  text-align: center;
+  color: magenta;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

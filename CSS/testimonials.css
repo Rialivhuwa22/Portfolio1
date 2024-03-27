@@ -1,0 +1,32 @@
+/* Styling for testimonials */
+#testimonials {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #1f1d1d;
+}
+
+.testimonial p {
+  margin: 0;
+  font-style: italic;
+}
+
+.testimonial p:last-child {
+  font-weight: bold;
+}
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-top: 40px;
+  color: magenta;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,51 @@
+/* Styles for the container holding about content */
+.about {
+  display: flex;
+  align-items: center;
+  padding: 20%;
+  min-height: 600px;
+}
+
+/* Styles for the about content itself */
+.aboutMe {
+  margin: 50px auto; /* Adjusted top margin to move the content higher */
+  width: 75%;
+}
+
+/* Styles for the heading within about content */
+.aboutMe h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: magenta;
+  align-items: center; /* Align text along the vertical axis */
+  justify-content: center; /* Center the content horizontally */
+}
+
+/* Styles for subheading within about content */
+.aboutMe h3 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-style: oblique; /* Italicize the text */
+}
+
+/* Styles for additional heading within about content */
+.aboutMe h5 {
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(126, 34, 110);
+  font-style: italic; /* Italicize the text */
+}
+
+/* Styles for the image within about content */
+.aboutMe img {
+  float: right; /* Float the image to the right of the text */
+  max-width: 400px;
+  margin-top: -95px; /* Adjusted negative margin to move the image higher to atleast align with the heading*/
+  border-radius: 50%; 
+  border: 1px solid magenta; 
+  box-shadow: 0 0 25px magenta; 
+ 
+}

@@ -1,0 +1,40 @@
+/* style for the portfolio section*/
+#portfolio h1 {
+  text-align: center;
+  color: magenta;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+#portfolio {
+  color: rgb(32, 31, 31); /* Set text color to contrast with the background */
+  text-align: center;
+  padding: 50px; /* add padding for better visibility*/
+}
+
+.port {
+  background-image: url("../Images/theMealDB.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  padding: 10px;
+  width: 50%;
+  margin-left: 30%;
+  border: 4px solid magenta;
+}
+
+.port p {
+  margin-bottom: 10px;
+}
+.port :hover {
+  color: rgb(163, 47, 95);
+}
+.Download p {
+  margin: 10px;
+  color: white;
+}
+.Download a:hover {
+  color: purple;
+}
