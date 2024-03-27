@@ -42,10 +42,4 @@ To run the project locally:
 2. Open the HTML files in your web browser to view different sections of the portfolio.
 3. Navigate to the MealDB project directory and open the HTML file to interact with the project.
 
-## Contributors
 
-- [Your Name] - Developer
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
